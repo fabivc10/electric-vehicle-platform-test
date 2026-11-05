@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+
+# Material de referencia local (spec OCPP 1.6 y proyecto original); no forma parte del código
+sources/

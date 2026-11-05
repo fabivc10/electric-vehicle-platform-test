@@ -1,0 +1,13 @@
+packages:
+  - shared
+  - backend
+  - frontend
+
+# Resuelve "@ev/shared": "*" al workspace local (compatibilidad con npm workspaces)
+linkWorkspacePackages: true
+
+allowBuilds:
+  esbuild: true
+
+minimumReleaseAgeExclude:
+  - vite@8.3.6
